@@ -1,22 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
-  /** propiedad dinamica en un objeto */
-  const notas = 'curso de react';
-
-  const alumno = {
-    nombre: 'Daniela', 
-    apellido: 'Rios', 
-    ['notas ' + notas]: 5
-  }
-
-  console.log(alumno);
-
-
-
   return (
     <div className="App">
+      <Navbar/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

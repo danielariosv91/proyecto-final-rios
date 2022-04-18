@@ -1,0 +1,12 @@
+.navbar {
+    width: 100%;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul li:hover{
+    cursor: pointer;
+    color: cornflowerblue;
+}
