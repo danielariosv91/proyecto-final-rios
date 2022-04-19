@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
 export default class ItemListContainer extends Component {
-  render() {
+  render(props) {
     return (
-      <div>ItemListContainer</div>
+      <div>{this.props.greeting}</div>
     )
   }
 }
