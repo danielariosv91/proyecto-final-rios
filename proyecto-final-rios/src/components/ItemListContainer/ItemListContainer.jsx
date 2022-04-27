@@ -1,9 +1,17 @@
-import React, { Component } from 'react'
+import React from 'react';
+import ItemCount from '../ItemCount/ItemCount';
+import './ItemListContainer.css'
 
-export default class ItemListContainer extends Component {
-  render(props) {
-    return (
-      <div>{this.props.greeting}</div>
-    )
+function ItemListContainer({ greeting }) {
+  function dummy() {
+    console.log('dummy prop function');
   }
+
+  return (
+    <div className='list-item-container'>
+        <ItemCount initial={0} stock={5} onAdd={dummy} />
+    </div>
+  )
 }
+
+export default ItemListContainer
