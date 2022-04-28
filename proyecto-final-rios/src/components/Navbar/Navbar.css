@@ -1,6 +1,6 @@
 .navbar {
     width: 100%;
-    background-color: #555;
+    background-color: #eee;
 }
 .navbar ul{
     list-style: none;
@@ -12,16 +12,16 @@
 }
 .navbar ul li{
     cursor: pointer;
-    color: white;
+    color: #555;
 }
 
 .navbar ul li svg{
     width: 1.2em;
-    color: white;
+    color: #555;
 }
 
 .navbar ul li:hover{
     cursor: pointer;
     /**color: #c35736;*/
-    color: #dea40a;
+    color: #cf5555;
 }

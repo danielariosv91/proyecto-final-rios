@@ -23,7 +23,37 @@ function getProducts() {
         title: 'Flash',
         price: '$350',
         imageUrl: 'https://www.ecccomics.com/content/productos/5447/Flash_28.jpg'
-      }
+      },
+      {
+        id: 4,
+        title: 'Hawgirl',
+        price: '$350',
+        imageUrl: 'https://www.ecccomics.com/content/productos/5447/Flash_28.jpg'
+      },
+      {
+        id: 5,
+        title: 'Jujutsu Kaisen',
+        price: '$450',
+        imageUrl: 'https://pbs.twimg.com/media/EjUBPF8XsAAQQPY?format=jpg&name=4096x4096'
+      },
+      {
+        id: 6,
+        title: 'Battle Royale',
+        price: '$600',
+        imageUrl: 'https://ramenparados.com/wp-content/uploads/2016/02/Battle-Royale-1.jpg'
+      },
+      {
+        id: 7,
+        title: 'Death Note',
+        price: '$350',
+        imageUrl: 'https://www.ecccomics.com/content/productos/5447/Flash_28.jpg'
+      },
+      {
+        id: 9,
+        title: 'Berserk',
+        price: '$350',
+        imageUrl: 'https://m.media-amazon.com/images/I/51U-SRiOd+L._AC_SY780_.jpg'
+      },
     ];
     setTimeout(() => {
       resolve(productsList);
@@ -33,10 +63,6 @@ function getProducts() {
 }
 
 function ItemListContainer({ greeting }) {
-  // function dummy() {
-  //   console.log('dummy prop function');
-  // }
-
   const [products, setProducts] = useState([]);
 
   useEffect(() => {

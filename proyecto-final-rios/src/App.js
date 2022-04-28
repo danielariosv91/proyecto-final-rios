@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
+import Header from './components/Header/Header';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Header />
       <ItemListContainer greeting="Hola Mundo. Este es un props"/>
     
    
