@@ -7,11 +7,11 @@ function Navbar(props) {
         <div className="navbar">
             <ul>
                 <li>Tiendita del Comic</li>
-                <li>Mangas/Comic</li>
+                <li>Comic</li>
+                <li>Mangas</li>
                 <li>Contacto</li>
+                <li> <CartWidget/></li>
             </ul>
-
-            <CartWidget/>
         </div>
     );
 }
