@@ -55,6 +55,7 @@
     border-color: #555;
     box-shadow: 5px 6px 10px #777;
     border-width: 0;
+    cursor: pointer;
 }
 
 .container-header__box1 img,

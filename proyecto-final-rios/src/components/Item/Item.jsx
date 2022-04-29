@@ -4,13 +4,15 @@ import './Item.css';
 function Item({ item }) {
   return (
     <div className='card'>
-        <div className='header'>{ item?.title }</div>
-        <div className='content'>
-            <div className='img-container'>
-                <img className='product-img' src={ item?.imageUrl } alt="Imagen del producto" />
-            </div>
-        </div>
-        <div className='footer'>{ item?.price }</div>
+      <div className='card__img'>
+        <img src={item?.imageUrl} alt="Imagen del producto" />
+      </div>
+      <div className='card__detail'>
+        <h3>{item?.title} </h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Laudantium, nihil illum! Laudantium magni, dolores accusantium suscipit ratione voluptate ipsa voluptas natus quibusdam officiis, odit molestias eius inventore perspiciatis provident atque.</p>
+        <button>Ver más</button>
+      </div>
     </div>
   )
 }
