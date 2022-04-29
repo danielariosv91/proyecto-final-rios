@@ -3,15 +3,18 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Header />
-      <ItemListContainer greeting="Hola Mundo. Este es un props"/>
+
+      <ItemDetailContainer></ItemDetailContainer>
+      {/* <ItemListContainer greeting="Hola Mundo. Este es un props"/> */}
     
-   
+      
     </div>
   );
 }

@@ -75,7 +75,7 @@ function ItemListContainer({ greeting }) {
   return (
     <div className='list-item-container'>
       <ItemList items={products} />
-        {/* <ItemCount initial={0} stock={5} onAdd={dummy} /> */}
+      {/* <ItemCount initial={0} stock={5} onAdd={dummy} /> */}
     </div>
   )
 }
