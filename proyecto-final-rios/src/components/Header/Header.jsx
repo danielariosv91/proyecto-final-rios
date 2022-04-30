@@ -2,8 +2,10 @@ import React from 'react'
 import './Header.css'
 
 function header() {
-    return (
-        <div className="container-header">
+    return [
+        <div key="1"className="jumbotron">
+        </div>,
+        <div key="2" className="container-header">
             <div className="container-header__box1">
                 <img src="https://pbs.twimg.com/media/EjUBPF8XsAAQQPY?format=jpg&name=4096x4096" alt="" />
                 <div className="container-header__content">
@@ -26,7 +28,7 @@ function header() {
                 </div>
             </div>
         </div>
-    )
+    ]
 }
 
 
