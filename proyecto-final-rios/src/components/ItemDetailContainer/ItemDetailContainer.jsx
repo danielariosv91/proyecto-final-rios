@@ -7,6 +7,7 @@ function getItem() {
       {
         id: 1,
         title: 'Batman',
+        stock: 5,
         price: '$450',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue urna non magna accumsan, eget auctor massa pretium. Sed eleifend nunc ligula, sit amet ullamcorper sapien rhoncus ac.',
         imageUrl: 'https://d3ugyf2ht6aenh.cloudfront.net/stores/001/184/069/products/batman80anivol191-5a4d6411b2ef55dd1315908772450482-480-0.jpg'
@@ -14,6 +15,7 @@ function getItem() {
       {
         id: 2,
         title: 'Superman',
+        stock: 100,
         price: '$600',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue urna non magna accumsan, eget auctor massa pretium. Sed eleifend nunc ligula, sit amet ullamcorper sapien rhoncus ac.',
         imageUrl: 'https://www.ecccomics.com/content/productos/10036/Superman_109_30_1a_cubierta_CORR.jpg'
@@ -21,6 +23,7 @@ function getItem() {
       {
         id: 3,
         title: 'Flash',
+        stock: 100,
         price: '$350',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue urna non magna accumsan, eget auctor massa pretium. Sed eleifend nunc ligula, sit amet ullamcorper sapien rhoncus ac.',
         imageUrl: 'https://www.ecccomics.com/content/productos/5447/Flash_28.jpg'
@@ -28,6 +31,7 @@ function getItem() {
       {
         id: 4,
         title: 'Hawgirl',
+        stock: 100,
         price: '$350',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue urna non magna accumsan, eget auctor massa pretium. Sed eleifend nunc ligula, sit amet ullamcorper sapien rhoncus ac.',
         imageUrl: 'https://www.ecccomics.com/content/productos/5447/Flash_28.jpg'
@@ -35,6 +39,7 @@ function getItem() {
       {
         id: 5,
         title: 'Jujutsu Kaisen',
+        stock: 100,
         price: '$450',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue urna non magna accumsan, eget auctor massa pretium. Sed eleifend nunc ligula, sit amet ullamcorper sapien rhoncus ac.',
         imageUrl: 'https://pbs.twimg.com/media/EjUBPF8XsAAQQPY?format=jpg&name=4096x4096'
@@ -42,6 +47,7 @@ function getItem() {
       {
         id: 6,
         title: 'Battle Royale',
+        stock: 100,
         price: '$600',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue urna non magna accumsan, eget auctor massa pretium. Sed eleifend nunc ligula, sit amet ullamcorper sapien rhoncus ac.',
         imageUrl: 'https://ramenparados.com/wp-content/uploads/2016/02/Battle-Royale-1.jpg'
@@ -49,6 +55,7 @@ function getItem() {
       {
         id: 7,
         title: 'Death Note',
+        stock: 100,
         price: '$350',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue urna non magna accumsan, eget auctor massa pretium. Sed eleifend nunc ligula, sit amet ullamcorper sapien rhoncus ac.',
         imageUrl: 'https://www.ecccomics.com/content/productos/5447/Flash_28.jpg'
@@ -56,6 +63,7 @@ function getItem() {
       {
         id: 9,
         title: 'Berserk',
+        stock: 100,
         price: '$350',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue urna non magna accumsan, eget auctor massa pretium. Sed eleifend nunc ligula, sit amet ullamcorper sapien rhoncus ac.',
         imageUrl: 'https://m.media-amazon.com/images/I/51U-SRiOd+L._AC_SY780_.jpg'

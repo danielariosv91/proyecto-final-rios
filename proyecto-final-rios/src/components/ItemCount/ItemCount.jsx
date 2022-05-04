@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './ItemCount.css';
 
 function ItemCount({ stock, initial, onAdd }) {
@@ -11,9 +12,14 @@ function ItemCount({ stock, initial, onAdd }) {
     }
 
     function handleMinusButton() {
+        debugger;
         if (count > 0) {
             setCount(count - 1)
         }
+    }
+
+    function handleFinishButton() {
+        console.log("redirect");
     }
 
     return (
@@ -23,7 +29,8 @@ function ItemCount({ stock, initial, onAdd }) {
                 <input readOnly value={count} />
                 <button onClick={() => handlePlusButton()}>+</button>
             </div>
-            <button onClick={() => (count <= stock) && onAdd()}>Agregar al carrito</button>
+            <button onClick={() => (count <= stock) && onAdd(count)}>Agregar al carrito</button>
+            <Link to={'/cart'}>Finalizar compra</Link>
         </div>
     )
 }

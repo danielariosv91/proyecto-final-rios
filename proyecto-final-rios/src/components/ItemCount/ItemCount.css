@@ -3,11 +3,23 @@
     justify-content: end;
 }
 
+.item-count-container > a{
+  background-color: #ca8dae;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 0.5em 0 0.5em;
+  margin: 0 0.5em;
+  font-size: 14px;
+}
+
 .item-count-container > button{
     width: 25%;
+    margin: 0 0.5em;
     height: 3em;
     border: none;
     color: #fff;
+    border: 1px solid #fff;
     background-color: #85c6d2;
 }
 

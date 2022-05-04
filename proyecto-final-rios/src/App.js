@@ -7,6 +7,7 @@ import Home from './views/Home/Home';
 import Comics from './views/Comics/Comics';
 import Mangas from './views/Mangas/Mangas';
 import Detalle from './views/Detalle/Detalle';
+import Cart from './views/Cart/Cart';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/comics" element={<Comics/>} />
         <Route path="/mangas" element={<Mangas/>} />
         <Route path="/detalle/:id" element={<Detalle/>} />
+        <Route path="/cart" element={<Cart/>} />
       </Routes>
 
     </div>
