@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 import { useParams } from 'react-router'
+import ItemDetailContainer from './../../components/ItemDetailContainer/ItemDetailContainer'
+ 
 
 export default function Detalle() {
     const { id } = useParams();
@@ -10,6 +12,6 @@ export default function Detalle() {
 
 
     return (
-        <div>{id}</div>
+        <ItemDetailContainer detail={id}></ItemDetailContainer>       
     )
 }

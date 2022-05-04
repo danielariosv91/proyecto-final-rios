@@ -18,7 +18,7 @@ function ItemCount({ stock, initial, onAdd }) {
 
     return (
         <div className='item-count-container'>
-            <div>
+            <div className="item-count-buttons">
                 <button onClick={() => handleMinusButton()}>-</button>
                 <input readOnly value={count} />
                 <button onClick={() => handlePlusButton()}>+</button>

@@ -1,31 +1,26 @@
 .card-detail {
     display: flex;
     background: #ddd;
-    width: 80%;
-    height: 25em;
-    margin: 5em auto;
+    width: 60%;
+    height: 18em;
+    margin: 10em auto;
     justify-content: flex-end;
     position: relative;
 }
 
 .card-detail__container-img img{
-    width: 18em;
+    width: 17em;
     position: absolute;
-    top: -1em; 
+    top: -3em;
     left: 2.5em;
 }
 
 .card-detail__container-description{
-    width: 60%;
+    width: 65%;
     padding: 0 1em;
     color: #555;
 }
 
 .card-detail__container-description span{
     color: #555;
-}
-
-.card-detail__container-description{
-    width: 60%;
-    padding: 0 1em;
 }

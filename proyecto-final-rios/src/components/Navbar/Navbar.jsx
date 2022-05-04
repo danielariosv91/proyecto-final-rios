@@ -7,7 +7,7 @@ function Navbar(props) {
     return (
         <div className="navbar">
             <ul>
-                <li>Tiendita del Comic</li>
+                <li><Link to={'/'}>Tiendita del Comic</Link></li>
                 <li><Link to={'/comics'}>Comics</Link></li>
                 <li><Link to={'/mangas'}>Mangas</Link></li>
                 <li><Link to={'/contacto'}>Contacto</Link></li>

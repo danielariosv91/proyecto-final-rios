@@ -1,35 +1,28 @@
 .item-count-container {
-    background-color: whitesmoke;
-    padding: 20px;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
-}
-
-.item-count-container div {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: end;
 }
 
-.item-count-container button {
-    width: 100%;
-    padding: 5px;
-    margin: 5px 0px;
-}
-
-.item-count-container div button {
-    background-color: whitesmoke;
+.item-count-container > button{
+    width: 25%;
+    height: 3em;
     border: none;
-    font-size: x-large;
-    cursor: pointer;
+    color: #fff;
+    background-color: #85c6d2;
 }
 
-.item-count-container div input {
-    padding: 5px;
-    text-align: center;
+.item-count-container > button:hover{
+    cursor: pointer
 }
 
-.item-count-container div button:hover {
-    color: blue;
+.item-count-buttons{
+    display: flex;
+}
+
+.item-count-buttons button{
+    height: 3em;
+}
+
+.item-count-buttons button:hover{
+     cursor: pointer
 }

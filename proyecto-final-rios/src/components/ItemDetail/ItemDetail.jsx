@@ -1,4 +1,5 @@
 import React from 'react'
+import ItemCount from './../ItemCount/ItemCount'
 import './ItemDetail.css'
 
 export default function ItemDetail({ item }) {
@@ -10,8 +11,11 @@ export default function ItemDetail({ item }) {
       <div className="card-detail__container-description">
         <h2>{item?.title} </h2>
         <p>{item?.description}</p>
-        <span>{item?.price}</span>
-        <button>Agregar al carrito</button>
+        <span>Precio: {item?.price}</span>
+
+        <div className="card-detail__footer">
+          <ItemCount> </ItemCount>
+        </div>
       </div>
     </div>
   )
