@@ -1,5 +1,5 @@
 .card {
-    height: 18em;
+    height: 15em;
     width: 35em;
     text-align: center;
     margin: 20px;
@@ -43,6 +43,7 @@
 .card__detail {
     width: 60%;
     padding: 0 3em;
+    position: relative;
 }
 
 .card__detail h3 {
@@ -53,14 +54,18 @@
     color: #555;
 }
 
-.card__detail button{
+.card__detail a{
     display: block;
-    padding: 0.5em;
-    width: 40%;
-    border-radius: 1em;
+    position: absolute;
+    padding: 1em 0.5em;
+    width: 80%;
+    bottom: 1em;
+    border-radius: 0.2em;
     border-color: #555;
     box-shadow: 5px 6px 10px #777;
+    background-color: #85c6d2;
     border-width: 0;
     margin: auto;
-    cursor: pointer;
+    color: white;
+    text-decoration: none;
 }

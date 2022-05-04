@@ -73,7 +73,13 @@ function ItemListContainer({ greeting }) {
   }, []);
 
   return (
-    <div className='list-item-container'>
+    <div key="list-item-container" className="list-item-container">
+      <ul>
+        <li>Todas las categorías</li>
+        <li>Acción</li>
+        <li>Ciencia-Ficción</li>
+        <li>Romance</li>
+      </ul>
       <ItemList items={products} />
       {/* <ItemCount initial={0} stock={5} onAdd={dummy} /> */}
     </div>

@@ -1,4 +1,10 @@
-
+.jumbotron{
+    background-image: url("https://www.gamerfocus.co/wp-content/uploads/2022/02/Jujutsu-Kaisen-0.jpg");
+    background-size: cover;
+    background-position: inherit;
+    width: 100%;
+    height: 23em;
+}
 .container-header{
     display: flex;
     justify-content: space-around;
@@ -14,16 +20,16 @@
 
 .container-header__box1,
 .container-header__box2{
+    display: flex;
     width: 50%;
     position: relative;
     border: 1px solid white;
 }
 
-.container-header__box1,
-.container-header__box2{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+
+.container-header__image{
+    position: relative;
+    width: 35%;
 }
 
 .container-header__content{
@@ -61,9 +67,9 @@
 
 .container-header__box1 img,
 .container-header__box2 img {
-    width: 12em;
+    width: 75%;
     position: absolute;
     top: 1em;
-    left: 1em;
+    left: 3em;
     box-shadow: 5px 3px 4px #777;
 } 

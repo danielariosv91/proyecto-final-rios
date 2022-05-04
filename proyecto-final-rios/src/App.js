@@ -3,8 +3,10 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
+import Home from './views/Home/Home';
 import Comics from './views/Comics/Comics';
 import Mangas from './views/Mangas/Mangas';
+import Detalle from './views/Detalle/Detalle';
 
 function App() {
   return (
@@ -12,8 +14,10 @@ function App() {
       <Navbar />
       <Header />
       <Routes>
+        <Route path="/" element={<Home/>} />
         <Route path="/comics" element={<Comics/>} />
         <Route path="/mangas" element={<Mangas/>} />
+        <Route path="/detalle/:id" element={<Detalle/>} />
       </Routes>
 
     </div>

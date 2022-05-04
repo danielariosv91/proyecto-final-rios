@@ -1,5 +1,6 @@
 import React from 'react';
 import './Item.css';
+import { Link } from 'react-router-dom';
 
 function Item({ item }) {
   return (
@@ -10,8 +11,8 @@ function Item({ item }) {
       <div className='card__detail'>
         <h3>{item?.title} </h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Laudantium, nihil illum! Laudantium magni, dolores accusantium suscipit ratione voluptate ipsa voluptas natus quibusdam officiis, odit molestias eius inventore perspiciatis provident atque.</p>
-        <button>Ver más</button>
+          Laudantium, nihil illum! Laudantium magni, dolores accusantium.</p>
+        <Link className="card__detail" to="/detalle/1"> Ver detalle </Link>
       </div>
     </div>
   )

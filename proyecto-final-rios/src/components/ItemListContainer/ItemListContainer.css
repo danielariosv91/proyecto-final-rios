@@ -2,3 +2,19 @@
     background: #ddd;
     padding: 8em 0;
 }
+
+.list-item-container ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.list-item-container ul li{
+   padding: 1em;
+   cursor: pointer;
+}
+
+.list-item-container ul li:hover{
+   color: #ca8dae;
+}
