@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import './ItemCount.css';
 
 function ItemCount({ stock, initial, onAdd }) {
@@ -30,7 +29,6 @@ function ItemCount({ stock, initial, onAdd }) {
                 <button onClick={() => handlePlusButton()}>+</button>
             </div>
             <button onClick={() => (count <= stock) && onAdd(count)}>Agregar al carrito</button>
-            <Link to={'/cart'}>Finalizar compra</Link>
         </div>
     )
 }
