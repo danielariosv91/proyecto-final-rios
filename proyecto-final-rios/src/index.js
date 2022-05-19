@@ -3,9 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { initializeApp } from "firebase/app";
 import { BrowserRouter } from 'react-router-dom';
 import { CartContextProvider } from './store/cart-context';
 
+const firebaseConfig = {
+  apiKey: "AIzaSyDu9WE2RTbZQae46jeRjMGtypHXCLuRvfI",
+  authDomain: "proyecto-final-rios.firebaseapp.com",
+  projectId: "proyecto-final-rios",
+  storageBucket: "proyecto-final-rios.appspot.com",
+  messagingSenderId: "407603013126",
+  appId: "1:407603013126:web:a26e0030489146113c0587"
+};
+
+initializeApp(firebaseConfig);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

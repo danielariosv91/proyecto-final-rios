@@ -1,6 +1,7 @@
 .item-count-container {
     display: flex;
     justify-content: end;
+    width: 6em;
 }
 
 .item-count-container > a{
@@ -29,6 +30,8 @@
 
 .item-count-buttons{
     display: flex;
+    width: 70%;
+    margin: auto;
 }
 
 .item-count-buttons button{

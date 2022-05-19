@@ -28,7 +28,6 @@ function ItemCount({ stock, initial, onAdd }) {
                 <input readOnly value={count} />
                 <button onClick={() => handlePlusButton()}>+</button>
             </div>
-            <button onClick={() => (count <= stock) && onAdd(count)}>Agregar al carrito</button>
         </div>
     )
 }
