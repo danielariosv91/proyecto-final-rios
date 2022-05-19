@@ -18,7 +18,7 @@ function ItemListContainer({ greeting }) {
   useEffect(() => {
     getProducts()
       .then(snapshot => {
-        setProducts(snapshot.docs.map(doc => { return { ...doc.data() } }));
+        setProducts(snapshot.docs.map(doc => { return { ...doc.data(), id: doc.id } }));
       })
   }, []);
 

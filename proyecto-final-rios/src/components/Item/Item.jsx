@@ -12,7 +12,7 @@ function Item({ item }) {
         <h3>{item?.title} </h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
           Laudantium, nihil illum! Laudantium magni, dolores accusantium.</p>
-        <Link className="card__detail" to="/detalle/1"> Ver detalle </Link>
+        <Link className="card__detail" to={`/detalle/${item?.id}`}> Ver detalle </Link>
       </div>
     </div>
   )
