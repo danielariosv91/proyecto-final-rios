@@ -11,7 +11,6 @@ function ItemCount({ stock, initial, onAdd }) {
     }
 
     function handleMinusButton() {
-        debugger;
         if (count > 0) {
             setCount(count - 1)
         }
@@ -27,6 +26,9 @@ function ItemCount({ stock, initial, onAdd }) {
                 <button onClick={() => handleMinusButton()}>-</button>
                 <input readOnly value={count} />
                 <button onClick={() => handlePlusButton()}>+</button>
+            </div>
+            <div className="item-count-add">
+                <button onClick={() => onAdd(count)}>Agregar</button>
             </div>
         </div>
     )

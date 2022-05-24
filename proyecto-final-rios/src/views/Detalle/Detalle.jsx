@@ -12,6 +12,6 @@ export default function Detalle() {
 
 
     return (
-        <ItemDetailContainer detail={id}></ItemDetailContainer>       
+        <ItemDetailContainer id={id}></ItemDetailContainer>       
     )
 }

@@ -23,17 +23,10 @@ export default function ItemDetail({ item }) {
 
         <div className="card-detail__footer">
           <ItemCount initial={0} stock={item.stock} onAdd={onAdd}> </ItemCount>
-          <button onClick={() => console.log(cartContext.products)} >Imprimir carrito</button>
-          <button onClick={() => cartContext.removeProduct(item.id)} >Eliminar producto</button>
-          <button onClick={() => cartContext.clear()} >Limpiar</button>
-          <button onClick={() => console.log(cartContext.isInCart(item.id))} >En el carrito</button>
-          <button onClick={() => console.log(cartContext.getCartQuantity())} >Cantidad</button>
-          {cartContext.products.length &&
-            <button onClick={() => console.log(cartContext)}>
-              <Link to='/cart'>
-                Terminar la compra ({cartContext.getCartQuantity()} items)
-              </Link>
-            </button>
+          {cartContext.products.length > 0 &&
+            <Link className="cart-button" to='/cart'>
+              Terminar la compra ({cartContext.getCartQuantity()} items)
+            </Link>
           }
         </div>
       </div>

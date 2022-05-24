@@ -19,8 +19,36 @@
     width: 65%;
     padding: 0 1em;
     color: #555;
+    box-sizing: border-box;
+}
+
+.card-detail__footer {
+    display: flex;
+    align-items: center;
+}
+
+.card-detail__footer a{
+    margin-left: 5px;
+    text-decoration: none;
 }
 
 .card-detail__container-description span{
     color: #555;
+}
+
+.card-detail__footer .item-count-container {
+    width: 40% !important;
+    margin-left: auto;
+}
+
+.item-count-container .item-count-add{
+    margin-left: 1em;
+}
+
+.item-count-container .item-count-add button{
+    padding: 1em;
+    color: white;
+    border: none;
+    background-color: #85c6d2;
+    text-transform: uppercase;
 }

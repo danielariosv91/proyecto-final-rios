@@ -7,9 +7,8 @@ import ItemList from '../ItemList/ItemList';
 import './ItemListContainer.css'
 
 function getProducts(category) {
-  debugger;
   const db = getFirestore();
-  const itemsCollection = category ? query(collection(db, "Items"), where('category', '==', 'manga')) :
+  const itemsCollection = category ? query(collection(db, "items"), where('category', '==', 'manga')) :
     collection(db, 'items');
 
 

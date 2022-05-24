@@ -8,6 +8,7 @@
 .container-header{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 10em;
 }
 
 .container-header__box1 {
@@ -69,7 +70,7 @@
 .container-header__box2 img {
     width: 75%;
     position: absolute;
-    top: 1em;
+    top: -2em;
     left: 3em;
     box-shadow: 5px 3px 4px #777;
 } 
