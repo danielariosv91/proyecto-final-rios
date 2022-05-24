@@ -9,6 +9,7 @@ import Comics from './views/Comics/Comics';
 import Mangas from './views/Mangas/Mangas';
 import Detalle from './views/Detalle/Detalle';
 import Cart from './views/Cart/Cart';
+import Firebase from './views/Firebase/Firebase';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/detalle/:id" element={<Detalle/>} />
         <Route path="/category/:categoryId" element={<ItemListContainer/>} />
         <Route path="/cart" element={<Cart/>} />
+        <Route path="/firebase" element={<Firebase/>} />
       </Routes>
 
     </div>
